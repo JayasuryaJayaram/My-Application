@@ -1,0 +1,279 @@
+//scss file
+
+@import "~@fluentui/react/dist/sass/References.scss";
+
+// p {
+//   all: unset;
+// }
+
+.calendar {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.CrmTicketcard {
+  border-radius: 7px !important;
+  border-top: 7px solid #ea881a;
+  // width: 124px;
+  width: 160px;
+  height: 188px;
+  float: left;
+}
+
+.textCrm {
+  // color: var(--neutralDark, #323130);
+  // font-family: Segoe UI;
+  // font-size: 21px;
+  // font-style: normal;
+  // font-weight: 600;
+  // line-height: 18.782px;
+  // /* 89.437% */
+  // letter-spacing: 0.606px;
+  // margin-top: 0;
+
+  color: var(--neutralDark, #323130);
+  font-family: Segoe UI;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.606px;
+  line-height: 18.782px;
+  margin-bottom: 0px;
+  margin-top: 14px;
+  white-space: nowrap;
+}
+
+.captionCrm {
+  color: #989898;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: Segoe UI;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 170.742% */
+  letter-spacing: -0.182px;
+  margin-top: 0px;
+}
+
+.CrmTicketbutton {
+  width: 72px;
+  height: 25px;
+  border-radius: 3px;
+  border: 1px solid #e8e8e8;
+  color: #6f6f6f !important;
+  font-size: 13.329px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0px;
+  /* 0% */
+  letter-spacing: 0.303px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(
+      --link
+    ); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(
+        --linkHovered
+      ); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.row {
+  width: 100%;
+  border-radius: 7px !important;
+  border: 1px;
+  margin: 0px;
+}
+
+.CrmTicketcolumn {
+  width: 50%;
+}
+.layoutOne {
+  display: flex;
+  flex-direction: row;
+}
+.Tmscolumn {
+  width: 10%;
+  float: left;
+}
+.Tmscard {
+  // width: 122px;
+  // width: 144px;
+  width: 205px;
+  height: 188px;
+  border-radius: 7px !important;
+  border-top: 7px solid #3a86ff;
+  float: left;
+  margin-left: 15px;
+}
+
+.textTms {
+  color: var(--neutralDark, #323130);
+  font-family: Segoe UI;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.606px;
+  line-height: 18.782px;
+  margin-bottom: 0px;
+  margin-top: 12px;
+}
+.captionTms {
+  color: #989898;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: Segoe UI;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 170.742% */
+  letter-spacing: -0.182px;
+  margin-top: 0px;
+}
+.Tmsbutton {
+  width: 62.839px;
+  height: 25.145px;
+  border-radius: 3px;
+  border: 1px solid #e8e8e8;
+  background: white;
+  color: #6f6f6f !important;
+  font-size: 13.329px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0px;
+  /* 0% */
+  letter-spacing: 0.303px;
+}
+
+.rowTCrm {
+  width: 100%;
+  border-top: 7px solid #6a5fe7;
+  border-radius: 7px !important;
+  border: 1px;
+  margin: 0px;
+}
+.column1 {
+  width: 50%;
+}
+.column2 {
+  width: 50%;
+}
+.TechCrmcard {
+  width: 383px;
+  height: 188px;
+  border-radius: 7px 7px 0px 0px !important;
+  border-top: 7px solid #6a5fe7;
+  margin-top: 15px;
+}
+
+.techCrmImage {
+  width: 100%;
+  float: left;
+  height: inherit;
+}
+
+// .textTechCrm {
+//   color: var(--neutralDark, #323130);
+//   font-family: Segoe UI;
+//   font-size: 21px;
+//   font-style: normal;
+//   font-weight: 600;
+//   letter-spacing: 0.606px;
+//   line-height: 18.782px;
+//   margin-bottom: 0px;
+//   margin-top: 12px;
+// }
+.caption {
+  color: #989898;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: Segoe UI;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* 170.742% */
+  letter-spacing: -0.182px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.text {
+  color: var(--neutralDark, #323130);
+  font-family: Segoe UI;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18.782px;
+  /* 89.437% */
+  letter-spacing: 0.606px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.Techcrmlogo {
+  margin-top: 15px !important;
+}
+
+.TechCrm {
+  width: 50%;
+  float: left;
+}
+
+.TechCrmlogo {
+  margin-top: 15px !important;
+}
+.TechCrmImage {
+  width: 55%;
+  float: left;
+  height: inherit;
+}
+
+.TechCrmbutton {
+  width: 62.839px;
+  height: 25.145px;
+  border-radius: 3px;
+  background: #283657;
+  border: 1px solid #e8e8e8;
+  margin-top: 10px;
+  margin-bottom: 21px;
+  color: var(--white, #fff);
+  font-family: Segoe UI;
+  font-size: 13.329px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0px;
+  /* 0% */
+  letter-spacing: 0.303px;
+}
